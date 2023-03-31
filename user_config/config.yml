@@ -41,6 +41,9 @@ machines:
       queue_list: ["iuc"]
       scheduler: "PBS"
 
+    BORAH:
+      queue_list: ["defq","shortq"]
+      scheduler: "SLURM"
 
 JobTemplates:
      # Name of job
